@@ -97,6 +97,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 0.7;
 }
 
 .texture-paper::before {
@@ -132,7 +133,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -487,6 +487,7 @@ button {
 
 .icon-md {
   font-size: 30px !important;
+  margin: 5px;
 }
 
 .icon-lg {
@@ -662,7 +663,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black;
 }
 
 .container {
@@ -703,7 +704,6 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -711,8 +711,8 @@ p {
 }
 
 .social {
-  max-width: 400px;
-  margin: auto auto auto auto;
+  max-width: 50%;
+  margin: 30px auto;
 }
 
 h2 {
@@ -787,7 +787,6 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -801,6 +800,10 @@ h4 {
 .size {
   font-size: 1rem;
   font-weight: 550;
+}
+
+.tc-white {
+  color: #f3976c !important;
 }
 
 .ltc-white {
