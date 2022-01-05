@@ -22,10 +22,8 @@ a:hover {
 }
 
 a.link:hover {
-  background-color: #f3976c;
+  background-color: #fccf6d !important;
   border-radius: 10px 10px;
-  padding: 5px;
-  margin: -5px;
 }
 
 .citation {
@@ -35,6 +33,10 @@ a.link:hover {
 }
 .test {
   font-size: 1.4rem;
+}
+
+.contraste-partenaire {
+  color: #000000;
 }
 
 .form-group {

@@ -14,8 +14,15 @@
     <title>La chouette agence - Contact</title>
 
     
-<!-- Analytics -->
- 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWBGL20SBC"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JWBGL20SBC');
+</script>
 <!-- Analytics END -->
     
 </head>
@@ -24,7 +31,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -36,66 +43,67 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html" aria-label="Accueil : Chemin vers la Home Page" class="link">Accueil</a>
 					</li>
 					<li>
-						<a href="#bloc-7">Formulaire de contact</a>
+						<a href="#bloc-7" aria-label="Formulaire de contact : Chemin vers le formulaire d'inscription" class="link">Formulaire de contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
+						<label id="name" for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" name="name" id="name" aria-labelledby="name" class="form-control" placeholder="Écrivez votre nom ici" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="email" for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" name="email" id="email" aria-labelledby="email" class="form-control" placeholder="Écrivez votre email ici" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="info" for="info">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input type="text" name="info" aria-labelledby="info" class="form-control" placeholder="Réseaux sociaux / journaux / bouche à oreilles..." required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="message" for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea name="message" id="message" aria-labelledby="message" class="form-control" rows="4" cols="50" placeholder="Écrivez votre texte ici" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Envoyer : Envoie du formulaire">
 						Envoyer
 					</button>
 				</form>
@@ -107,7 +115,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
@@ -116,39 +124,39 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span>Twitter</a>
+							<a class="social" href="https://twitter.com/" aria-label="Twitter : Chemin vers le réseau social"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span>Facebook</a>
+							<a class="social" href="https://www.facebook.com/" aria-label="Facebook : Chemin vers le réseau social"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
+							<a class="social" href="https://www.dribbble.com/" aria-label="Dribbble : Chemin vers le réseau social"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span>Instagram</a>
+							<a class="social" href="https://www.instagram.com/" aria-label="Instagram : Chemin vers le réseau social"><span class="fa fa-instagram icon-md"></span>Instagram</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
