@@ -6,4 +6,4 @@ Disallow: /img/
 Disallow: /includes/
 Disallow: /js/
 
-Sitemap: https://aalemarch.github.io/AntoineLemarchand_4_28122021/sitemap.xml
+Sitemap: https://aalemarch.github.io/sitemap.xml
