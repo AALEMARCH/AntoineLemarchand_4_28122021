@@ -1,9 +1,8 @@
 User-agent: *
-Disallow: /page2.html/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /img/
 Disallow: /includes/
 Disallow: /js/
 
-Sitemap: https://aalemarch.github.io/AntoineLemarchand_4_28122021/
+Sitemap: https://aalemarch.github.io/AntoineLemarchand_4_28122021/sitemap.xml
